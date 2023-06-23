@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  margin: 20px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.bigimage img {
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+}
+.smallimage {
+  display: flex;
+}
+.smallimage img {
+  height: 50px;
+  width: 50px;
+  border-bottom: solid 1px rgba(15, 12, 12, 0.141);
+}
+.smallimage img:hover {
+  transition-duration: 0.2s;
+
+  background-color: #ccc;
+  cursor: pointer;
+}
+.contain {
+  font-weight: bold;
+}
+.type {
+  color: grey;
+  margin: 10px 0px;
+}
+.price {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.rating {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+.tailles {
+  color: grey;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.sizes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: grey;
+}
+.size {
+  padding: 0px 5px;
+}
+.size p:hover {
+  transition-duration: 0.2s;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #000;
+}
+.ajouter {
+  width: 100%;
+}
+.ajouter button {
+  width: 100%;
+  margin-top: 10px;
+  background-color: orangered;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+.ajouter button :hover {
+  text-decoration: underline;
+}

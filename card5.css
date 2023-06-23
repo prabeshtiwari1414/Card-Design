@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+body {
+  background-color: #fff;
+  font-family: "Oswald", sans-serif;
+  background-color: grey;
+}
+.box {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.basicbox {
+  background: linear-gradient(135deg, #ee20d6 0%, #0a2fb6 120%);
+  width: 300px;
+  background-color: grey;
+  border-radius: 10px;
+  margin: 10px;
+}
+.basic {
+  color: yellow;
+  font-size: 20px;
+  text-align: center;
+}
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-bottom: grey 1px solid;
+}
+.price .icon {
+  font-size: 15px;
+}
+.price .icon h2 {
+  font-size: 30px;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+.perservices {
+  padding: 10px;
+}
+.buy {
+  padding: 10px;
+  text-align: center;
+}
+.buy button {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}

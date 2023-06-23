@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: grey;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+.container {
+  text-align: center;
+  background-color: #43515a;
+  width: auto;
+  border-radius: 10px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user {
+  border: #db0a5b 10px solid;
+  height: 115px;
+  width: 115px;
+  line-height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  font-size: 60px;
+  margin-top: -70px;
+}
+.name {
+  padding: 20px;
+  color: #db0a5b;
+  font-size: 20px;
+  font-weight: bold;
+}
+.mail {
+  color: grey;
+  padding: 0;
+}
+.dev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.developer {
+  padding: 7px;
+  border-right: solid white 1px;
+}
+.designer {
+  padding: 7px;
+}
+.icon {
+  display: flex;
+  padding: 20px;
+}
+.githubicon,
+.twittericon,
+.youtubeicon,
+.linkedinicon {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 30px;
+  background-color: #db0a5b;
+  padding: 3px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.footter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #db0a5b;
+  padding: 20px;
+}
+.followers {
+  padding: 5px;
+  border-right: solid white 1px;
+}
+.following {
+  padding: 5px;
+}

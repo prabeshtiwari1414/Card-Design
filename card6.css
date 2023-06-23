@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 20px;
+}
+.box {
+  border: #ccc solid 1px;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.image {
+  position: relative;
+}
+.image img {
+  border-radius: 20px;
+  width: 200px;
+}
+.image p {
+  position: absolute;
+  top: 15px;
+  color: #fff;
+  background-color: rgb(217, 13, 13);
+  padding: 3px;
+  margin-left: 10px;
+}
+
+.image i {
+  position: absolute;
+  top: 15px;
+  background-color: #fff;
+  padding: 3px;
+  margin-left: 170px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  line-height: 15px;
+}
+.maincontain {
+  display: flex;
+  padding: 10px;
+}
+.maincontain .contains {
+  width: 67%;
+}
+.maincontain .contains .contain {
+  font-weight: bold;
+}
+.maincontain .pricesize {
+  width: 33%;
+  text-align: right;
+}
+.circle {
+  padding: 10px 0px;
+}
+.rating {
+  padding: 10px 0px 0px 0px;
+  font-size: 10px;
+  color: grey;
+}
+.pricesize .price {
+  color: orangered;
+  font-weight: bold;
+  font-size: 20px;
+}
+.pricesize .beforeprice {
+  font-size: 12px;
+  color: grey;
+}
+.sizes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sizes .size {
+  color: grey;
+  height: 20px;
+  width: 20px;
+  border: grey solid 1px;
+  border-radius: 50%;
+  line-height: 20px;
+  margin-top: 10px;
+  padding-right: 2px;
+}
+.buy {
+  padding: 10px 0px 0px 0px;
+  margin-top: 8px;
+}
+.buy a {
+  color: blueviolet;
+  text-decoration: none;
+}
+.footer {
+  display: flex;
+  background-color: #fff;
+  margin-top: 15px;
+  width: 200px;
+  height: 65px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.left {
+  padding: 20px;
+  width: 60%;
+}
+.left .monday {
+  color: grey;
+  font-size: 11px;
+}
+.left .monhpy {
+  color: orangered;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.right {
+  width: 40%;
+  background-color: blueviolet;
+  color: #fff;
+  padding: 10px 20px 10px 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+}

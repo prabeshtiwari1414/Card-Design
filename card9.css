@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  font-family: "DM Sans", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  position: relative;
+  width: 300px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.login {
+  font-size: 25px;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+.password input,
+.username input {
+  padding: 10px 5px;
+  border: none;
+  outline: none;
+  border-bottom: grey 2px solid;
+  width: 90%;
+  margin: 20px 0px 10px 0px;
+}
+.password input:focus,
+.username input:focus {
+  background-color: none;
+}
+.go {
+  text-align: center;
+  width: 100%;
+}
+.go button {
+  border: solid red;
+  width: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: red;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 30px 0px;
+}
+.go button a {
+  color: #fff;
+  text-decoration: none;
+}
+.go button a:hover {
+  text-decoration: underline;
+}
+.or {
+  text-align: center;
+  color: grey;
+  padding: 0px 0px 10px 0px;
+}
+.registerwith p {
+  color: black;
+  text-align: center;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+}
+.facebook,
+.google {
+  color: #000;
+  padding: 10px;
+}
+
+.facebook a,
+.google a {
+  text-decoration: none;
+}
+.facebook a i,
+.google a i {
+  color: #000;
+}
+
+.facebook a span,
+.google a span {
+  color: #000;
+  text-decoration: none;
+}
+.facebook a span:hover,
+.facebook a span:focus,
+.google a span:hover,
+.google a span:focus {
+  text-decoration: underline;
+}
+.alreadyaccount {
+  margin-top: 10px;
+  text-align: center;
+  color: #000;
+}
+.alreadyaccount a {
+  color: grey;
+  text-decoration: none;
+}
+.alreadyaccount a:hover {
+  color: #000;
+  text-decoration: underline;
+}

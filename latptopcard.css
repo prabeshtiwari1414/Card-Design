@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&display=swap");
+body {
+  background-color: #ccc;
+  font-family: "Inter Tight", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  margin: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 20%;
+  margin-right: 40px;
+}
+.image img {
+  width: 100%;
+}
+.contain {
+  width: 60%;
+}
+.containhead {
+  padding: 20px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.button {
+  display: flex;
+}
+.buttone button {
+  background-color: blue;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+.buttonl button {
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+}
+.details {
+  padding: 20px 0px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.footer {
+  display: flex;
+  font-size: 13;
+  font-weight: bold;
+}
+.footer span {
+  color: blue;
+}
+
+.price p {
+  width: 20%;
+  font-weight: bold;
+  font-size: 20px;
+}
+.price .icon {
+  letter-spacing: 2px;
+}
+.price .icon .reviews {
+  letter-spacing: 0px;
+  font-size: small;
+  font-weight: bold;
+}
+.cart {
+  padding: 10px 0px;
+}
+.cart button {
+  color: white;
+  background-color: #7d00fe;
+  padding: 5px;
+  cursor: pointer;
+}

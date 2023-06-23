@@ -1,0 +1,58 @@
+.parent {
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.parent p {
+  padding: 20px;
+  opacity: 0.6;
+}
+.danger,
+.success,
+.warning {
+  box-shadow: 1px 1px 20px #ccc;
+  text-align: center;
+  padding: 30px;
+  height: auto;
+  width: 200px;
+  margin: 40px;
+}
+.cross {
+  border: solid red;
+}
+.mark {
+  border: solid lightgreen;
+}
+.not {
+  border: solid rgb(248 165 0);
+}
+.cross,
+.mark,
+.not {
+  color: red;
+  text-align: center;
+  height: auto;
+  line-height: 100px;
+  font-size: 60px;
+  width: 100px;
+  border-radius: 100px;
+  margin: 20px;
+  padding: 20px;
+}
+.success-icon {
+  color: lightgreen;
+}
+.not-icon {
+  color: rgb(248 165 0);
+}
+a {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}

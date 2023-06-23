@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  font-family: "DM Sans", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  position: relative;
+  width: 300px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.login {
+  font-size: 25px;
+  color: red;
+  font-weight: bold;
+}
+.password input,
+.username input {
+  padding: 10px 0px;
+  border: none;
+  outline: none;
+  border-bottom: grey 2px solid;
+  width: 90%;
+  margin: 20px 0px 10px 0px;
+}
+.password input:focus,
+.username input:focus {
+  background-color: none;
+}
+.go {
+  text-align: center;
+  width: 100%;
+}
+.go button {
+  border: solid red;
+  width: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: red;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 30px 0px;
+}
+.go button a {
+  color: #fff;
+  text-decoration: none;
+}
+.forgetpassword {
+  text-align: center;
+  padding: 0px 0px 10px 0px;
+}
+.forgetpassword a {
+  color: grey;
+  text-decoration: none;
+}
+.registericon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background-color: red;
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.registericon a {
+  color: white;
+  text-decoration: none;
+}
+.registericon a span {
+  font-weight: bold;
+  font-size: large;
+}
+.registericon:hover {
+  background-color: white;
+  color: red;
+  border: solid red 2px;
+  height: 25px;
+  width: 25px;
+  line-height: 21px;
+  text-align: center;
+  border-radius: 50%;
+}
+.registericon a:hover {
+  color: red;
+}
