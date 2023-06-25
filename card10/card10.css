@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+}
+.container {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  margin: 10px;
+  width: 220px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.userimage img {
+  margin-top: 20px;
+  border: solid #000 4px;
+  line-height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 10px 50px rgba(235, 25, 110, 1);
+}
+.name {
+  padding: 20px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.postlikes {
+  display: flex;
+  justify-content: center;
+}
+.post,
+.likes {
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  padding: 10px;
+}
+.icon a {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, #ff003c, #c648c8);
+  transition: all 265ms ease-out;
+}
+.icon a:hover {
+  background: #000;
+}
+.icon a i {
+  font-size: 20px;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #fff;
+}
+.icon a:hover i {
+  transform: scale(2.2);
+  transition: all 265ms ease-in;
+}
+.follow,
+.message {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  width: 70%;
+  background-color: aqua;
+  text-align: center;
+}
+.follow button,
+.message button {
+  font-weight: bold;
+  padding: 5px;
+  background-color: #000;
+  color: aqua;
+  font-size: 20px;
+  border: 4px aqua solid;
+  width: 100%;
+}
+.follow button:hover,
+.message button:hover {
+  border-color: orangered;
+  color: yellow;
+  transition: 0.5s;
+}
