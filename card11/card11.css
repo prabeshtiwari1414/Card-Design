@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.box {
+  background-color: black;
+  color: white;
+  margin: 10px;
+  width: 250px;
+}
+.nav {
+  height: 50px;
+  color: white;
+  display: flex;
+  width: 100%;
+}
+.leftarrow {
+  text-align: left;
+  padding: 10px;
+}
+.heart {
+  padding: 10px;
+  margin-left: 150px;
+}
+.heart:hover {
+  transform: scale(1.3);
+  transition: all 265ms ease-in;
+  color: #c648c5;
+}
+.threedot {
+  padding: 10px;
+  margin-left: 2px;
+}
+.profile .profilepic {
+  position: relative;
+}
+.profile .profilepic img {
+  margin-top: -20px;
+  line-height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 10px 50px rgba(235, 25, 110, 1);
+}
+.check {
+  color: white;
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #ff003c, #c648c8);
+  position: absolute;
+  bottom: 8px;
+  right: 64px;
+}
+.name {
+  width: 100%;
+  margin-top: 20px;
+}
+.name span {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.position {
+  color: grey;
+  font-size: 12px;
+}
+.hobbies {
+  margin-top: 10px;
+}
+.hire {
+  margin: 10px 0;
+}
+.hire button {
+  background: linear-gradient(45deg, #ff003c, #c648c8);
+  border: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.hire button:hover {
+  transform: scale(1.3);
+  transition: all 265ms ease-in;
+  background: black;
+  color: #c648c5;
+  text-decoration: underline #ff003c;
+}
+.social {
+  border-top: solid grey 1px;
+}
+.icons {
+  display: flex;
+}
+.dribble,
+.behance,
+.github {
+  padding: 10px;
+}
+.dribble .icon i,
+.behance .icon i,
+.github .icon i {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.dribble .icon i {
+  background: linear-gradient(45deg, #ff003c, #c648c8);
+  transition: all 265ms ease-out;
+}
+.behance .icon i {
+  background: linear-gradient(45deg, blue, #c648c5);
+  transition: all 265ms ease-out;
+}
+.github .icon i {
+  background: linear-gradient(45deg, #c648c5, blue);
+  transition: all 265ms ease-out;
+}
+
+.dribble .followers p,
+.behance .followers p,
+.github .followers p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.dribble .foll p,
+.behance .foll p,
+.github .foll p {
+  color: grey;
+}
