@@ -35,6 +35,7 @@
   transform: scale(1.3);
   transition: all 265ms ease-in;
   color: #c648c5;
+  transition: 0.8s;
 }
 .threedot {
   padding: 10px;
@@ -92,6 +93,7 @@
   background: black;
   color: #c648c5;
   text-decoration: underline #ff003c;
+  transition: 0.8s;
 }
 .social {
   border-top: solid grey 1px;
